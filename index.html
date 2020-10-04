@@ -1,0 +1,33 @@
+<html>
+<head>
+   <title>이미지 오버</title>
+<style>
+.img_box1 {display:block;position:absolute;top:25%;left:50%;transform:translate(-50%,-50%);border:1px solid #000;width:500px;height:200px;overflow:hidden;}
+.img_box1 >img {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:100%;transition:transform 1.5s;}
+.img_box1:hover >img {transform:translate(-50%,-50%) scale(1.2);}
+
+.img_box2 {display:block;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);border:1px solid #000;width:500px;height:200px;overflow:hidden;}
+.img_box2 >img {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:100%;transition:transform 1.5s;}
+.img_box2:hover >img {transform:translate(-50%,-50%) scale(1.2);}
+
+.img_box3 {display:block;position:absolute;top:75%;left:50%;transform:translate(-50%,-50%);border:1px solid #000;width:500px;height:200px;overflow:hidden;}
+.img_box3 >img {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:100%;transition:transform 1.5s;}
+.img_box3:hover >img {transform:translate(-50%,-50%) scale(1.2);}
+</style>
+</head>
+<body>
+	
+<a href="#" class="img_box1">
+	<img src="cloud.JPG">
+</a>
+
+<a href="#" class="img_box2">
+	<img src="cloud2.JPG">
+</a>
+
+<a href="#" class="img_box3">
+	<img src="cloud3.JPG">
+</a>
+
+</body>
+</html>
